@@ -10,19 +10,19 @@ package TareaSia;
  */
 public class EvaluacionDocente {
     String nombre_docente;
-    int nota_evaluacion;
+    double nota_evaluacion;
     String materia_evaluada;
     String estudiante_evaluador;
     int cod_materia;
     
-    public EvaluacionDocente(String nombre_docente, int nota_evaluacion, String materia_evaluada, String estudiante_evaluador){
+    public EvaluacionDocente(String nombre_docente, double nota_evaluacion, String materia_evaluada, String estudiante_evaluador){
         this.nombre_docente=nombre_docente;
         this.nota_evaluacion=nota_evaluacion;
         this.materia_evaluada=materia_evaluada;
         this.estudiante_evaluador=estudiante_evaluador;
             
     }
-    public EvaluacionDocente(int cod_materia, String estudiante_evaluador, int nota_evaluacion){
+    public EvaluacionDocente(int cod_materia, String estudiante_evaluador, double nota_evaluacion){
         this.cod_materia=cod_materia;
         this.estudiante_evaluador=estudiante_evaluador;
         this.nota_evaluacion=nota_evaluacion;
