@@ -27,9 +27,10 @@ public class Cancelacion {
         this.nombre_estudiante=nombre_estudiante;
     }
     public String CancelarMateria(){
-            String anuncio="Procesando cancelacion de materia: "+(this.nombre_materia);
+            String anuncio="Procesando cancelacion de materia: "+(this.nombre_materia)+" de "+this.numero_creditos+" creditos, por parte de:"+this.nombre_estudiante;
             System.out.println(anuncio);
-        return "Recibo cancelado";
+        return "Materia cancelada";
     }
+    
     
 }
