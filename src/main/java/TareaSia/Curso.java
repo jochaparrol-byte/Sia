@@ -4,10 +4,7 @@
  */
 package TareaSia;
 
-/**
- *
- * @author Darwin Landaeta
- */
+
 public class Curso {
     int codigo_curso;
     int numero_creditos;
