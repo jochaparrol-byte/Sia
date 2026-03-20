@@ -8,7 +8,7 @@ package TareaSia;
  *
  * @author Darwin Landaeta
  */
-public class Cancelacion {
+public class Cancelacion { cola
     String profesor_asignado;
     String nombre_materia;
     int numero_creditos;
